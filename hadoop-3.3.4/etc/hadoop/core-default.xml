@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Do not modify this file directly.  Instead, copy entries that you -->
+<!-- wish to modify from this file into core-site.xml and change them -->
+<!-- there.  If core-site.xml does not already exist, create it.      -->
+
+<configuration>
+  <property>
+    <name>hadoop.common.configuration.version</name>
+    <value>3.0.0</value>
+    <description>version of this configuration file</description>
+  </property>
+  <property>
+    <name>hadoop.tmp.dir</name>
+    <value>/Volumes/dev/hadoop-tmp</value>
+    <description>A base for other temporary directories.</description>
+  </property>
+  <!-- HTTP CORS support -->
+  <property>
+    <name>hadoop.http.cross-origin.enabled</name>
+    <value>true</value>
+    <description>Enable/disable the cross-origin (CORS) filter.</description>
+  </property>
+</configuration>
