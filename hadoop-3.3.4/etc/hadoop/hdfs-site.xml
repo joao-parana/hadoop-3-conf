@@ -18,11 +18,11 @@
   </property>
   <property>
     <name>dfs.namenode.rpc-bind-host</name>
-    <value>0.0.0.0</value>
+    <value>127.0.0.1</value>
   </property>
   <property>
     <name>dfs.namenode.servicerpc-bind-host</name>
-    <value>0.0.0.0</value>
+    <value>127.0.0.1</value>
   </property>
   <property>
     <name>dfs.namenode.datanode.registration.ip-hostname-check</name>
@@ -30,6 +30,6 @@
   </property>
   <property>
     <name>fs.default.name</name>
-    <value>hdfs://0.0.0.0:8020</value>
+    <value>hdfs://127.0.0.1:8020</value>
   </property>
 </configuration>
